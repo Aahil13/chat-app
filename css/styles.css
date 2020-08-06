@@ -1,0 +1,335 @@
+body{
+	background-color: hsl(270, 20%, 96%);
+	font-family: 'Rubik', sans-serif;
+}
+.mobile-phone{
+	background-color: white;
+	width: 82%;
+	height: 650px;
+	border-radius: 30px;
+	padding-top: 3px;
+	box-shadow: 10px 15px 10px 10px hsl(271, 15%, 93%);
+}
+.top-box{
+	width: 90%;
+	height: 95px;
+	margin: 10px auto 0;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+}
+.higher-box{
+	background-color: white;
+	width: 52%;
+	height: 35px;
+	margin: 10px auto 0;
+	position: relative;
+	top:-13px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 14px;
+	border-bottom-left-radius: 14px;
+}
+.phone-body{
+	padding: 10px;
+	background-color: hsl(270, 20%, 96%);
+	width: 90%;
+	height: 530px;
+	margin: 0 auto;
+	margin-top: -4px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.top-arrow{
+	margin-left: 20px;
+}
+.avatar{
+	width: 13%;
+	border-radius: 35px;
+	margin-left: 20px;
+	border:1px solid white;
+}
+.top-menu{
+	position: relative;
+	top:-65px;
+	float: right;
+	margin-right: 20px;
+}
+.higher-box-p{
+	position: relative;
+	top:-37px;
+	left: 110px;
+	color: white;
+	font-size: 12px;
+	width: 35%;
+}
+.higher-box-p-small{
+	position: relative;
+	top:-60px;
+	left: 110px;
+	font-size: 10px;
+	color: hsl(276, 100%, 81%);
+}
+.left-chat-1, .left-chat-2{
+	width: 72%;
+	height: 50px;
+	background-color: hsl(206, 6%, 91%);
+	border-radius: 16px;
+	margin-bottom: 9px;
+	padding: 5px;
+}
+.left-chat-1-p, .left-chat-2-p{
+	font-size: 12px;
+	width: 100%;
+	margin: 0 auto;
+	color: hsl(276, 100%, 81%);
+}
+.dog-image{
+	width: 20%;
+	border-radius: 8px;
+	float: right;
+	margin: 13px 5px 0px;
+}
+.right-chat-1, .right-chat-2{
+	width: 70%;
+	height: 50px;
+	background-color: white;
+	border-radius: 18px;
+	margin:10px 0 0;
+	padding: 5px;
+	float: right;
+}
+.right-chat-2{
+	width: 55%;
+	height: 30px;
+	border-radius: 12px;
+	clear: right;
+}
+.right-chat-1-p, .right-chat-2-p{
+	font-size: 12px;
+	width: 100%;
+	margin: 0 auto;
+}
+.left-chat-3{
+	width: 80%;
+	height: 65px;
+	background-color: hsl(206, 6%, 91%);
+	border-radius: 18px;
+	margin:10px 0 0;
+	padding: 7px;
+	float: right;
+	position: relative;
+	right: 51px;
+}
+.left-chat-3-p{
+	font-size: 12px;
+	width: 100%;
+	margin: 0 auto;
+	color: hsl(276, 100%, 81%);
+}
+.cta{
+	width: 74%;
+	height: 40px;
+	background: linear-gradient(to right,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	border-top-right-radius: 14px;
+	border-top-left-radius: 17px;
+	border-bottom-right-radius: 14px;
+	border-bottom-left-radius: 5px;
+	margin:10px 0 0;
+	padding: 7px;
+	padding-left: 12px;
+	float: right;
+	position: relative;
+	right: 60px;
+}
+.cta-small-p{
+	font-size: 11px;
+	padding-left: 5px;
+	color: white;
+	font-weight: lighter;
+}
+.cta-p{
+	float: right;
+	padding-right: 15px;
+	font-weight: bold;
+	color: white;
+}
+.input-box{
+	width: 100%;
+	margin: 15px 0 10px;
+	border-radius: 20px;
+	border:1px solid white;
+	height: 6%;
+	padding: 9px;
+}
+.button{
+	position: relative;
+	top:-41px;
+	float: right;
+	right: 10px;
+}
+.left-design{
+	width: 85%;
+	height: 830px;
+	background: linear-gradient(to bottom,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	position: relative;
+	left: -310px;
+	border-bottom-right-radius: 280px;
+	z-index: -1;
+	float: left;
+	margin-top: -800px;
+}
+.right-design{
+	width: 50%;
+	height: 800px;
+	background: hsl(271, 15%, 93%);
+	position: relative;
+	border-top-left-radius: 270px;
+	z-index: -1;
+	float: right;
+	margin-right: -15px;
+	margin-top: -300px;
+}
+.row{
+	margin:0 auto;
+}
+.phone{
+	padding-left: 14rem;
+	position: relative;
+	padding-top: 7rem;
+}
+.right-section{
+	padding-top: 18rem;
+}
+.right-section-para, .right-section-h1{
+	width: 65%;
+}
+.right-section-para{
+	color: hsl(206, 6%, 60%);
+}
+.submit-button, .right-section-h1{
+	color: hsl(271, 36%, 24%);
+}
+
+@media(max-width: 1024px) and (min-width: 768px){
+	.mobile-phone{
+		width: 95%;
+	}
+	.phone{
+		padding-left: 8rem;
+	}
+	.left-design{
+		width: 90%;
+		position: relative;
+		left: -250px;
+	}
+	.right-section-para, .right-section-h1{
+		width: 85%;
+	}
+}	
+
+@media(max-width: 991px) and (min-width: 500px){
+	.mobile-phone{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.phone{
+		padding-left: 0rem;
+		padding-top: 10rem;
+	}
+	.right-design{
+		width: 50%;
+		margin-top: -610px;
+	}
+	.left-design{
+		width: 85%;
+		margin-top: -970px;
+	}
+	.right-section-para, .right-section-h1{
+		width: 55%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.right-section{
+		padding-top: 9rem;
+	}
+}
+
+@media(max-width: 500px){
+	.mobile-phone{
+		width: 79%;
+		margin: 0 auto;
+	}
+	.phone{
+		padding-left: 0rem;
+		padding-top: 10rem;
+	}
+	.left-design{
+		width: 125%;
+		margin-top: -970px;
+	}
+	.right-design{
+		width: 59%;
+		height: 650px;
+		margin-top: -400px;
+	}
+	.right-section-para, .right-section-h1{
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.right-section{
+		padding-top: 9rem;
+	}
+}
+
+@media (max-width: 414px){
+	.mobile-phone{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.right-section-para, .right-section-h1{
+		width: 99%;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+@media(max-width: 375px){
+	.left-design{
+		width: 140%;
+		margin-top: -970px;
+	}
+}
+
+@media(max-width: 280px){
+	.mobile-phone{
+		width: 100%;
+		margin: 0 auto;
+		margin-right: -7px;
+	}
+	.right-section-para, .right-section-h1{
+		width: 99%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.left-design{
+		width: 170%;
+		margin-top: -970px;
+	}
+	.right-design{
+		width: 59%;
+		height: 650px;
+		margin-top: -500px;
+	}
+}
+
+    .attribution {
+    	 font-size: 11px;
+    	 text-align: center;
+    	}
+    .attribution a {
+    	 color: hsl(228, 45%, 44%); 
+    	}
